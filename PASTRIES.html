@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>PASTRIES</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+    </head>
+    <style>
+      body {
+  text-align: center;
+  background-color: #AC9988;
+  margin-top: 15px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #bd8f5ba4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .navbar .logo a {
+    display: flex;
+    align-items: center;
+  }
+  .navbar .logo .logo-img {
+    height: 40px; 
+    width: auto;
+    padding-left: 30%;
+  }
+  .navbar .menu {
+    display: flex;
+    justify-content: right;
+    flex-grow: 1;
+    font-family: 'Outfit';
+    margin-right: 10%;
+    font-size: 120%;
+    cursor: pointer;
+  }
+  .navbar .menu a {
+    color: rgb(255, 255, 255);
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .navbar .menu a:hover {
+    color: rgb(133, 57, 41);
+  }
+.container1{
+  margin-top: 15px;
+
+}
+.pastries{
+  margin-top: 1%;
+  margin-bottom: 0;
+  padding-top: 0;
+  font-family: 'Orelega One';
+  font-size: 400px;
+  color: aliceblue;
+}
+#description{
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 1;
+  font-family: 'Outfit';
+  font-size: 150%;
+}
+.row{
+  background: #552E03;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  padding: 40px;
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+.column {
+  float: left;
+  width: 15%;
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: 15%;
+}
+
+.column2 {
+  float: left;
+  width: 15%;
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: 15%;
+
+}
+.column3{
+  float: left;
+  width: 15%;
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: 15%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+    </style>
+    <body>
+        <div class="navbar">
+            <div class="logo">
+              <a href="#"><img src="LIBRO_CAFE-removebg-preview.png" alt="My Logo" class="logo-img"></a>
+            </div>
+            <div class="menu">
+              <a href="Libro Cafe.html" class="go-home-button">Home</a>
+              <a div id="about" onclick="goToPage4()">About</a>
+              <a div id="contact" onclick="goToPage5()">Contact</a>
+          </div>    
+          </div>
+          <div class="pastries">Pastries</div>
+          <div id="description">For a wonderful treat, pair your favorite coffee with a freshly made pastry, 
+            every day we create delicious pastries to go with your coffee. Every bite of anything from rich brownies, 
+            light and airy like cream puffs to buttery croissants is a delight. For a moment of pure joy, pair one with your preferred beverage</div>
+            <div class="row">
+              <div class="column">
+                <img src="food1.png" alt="1" style="width:100%">
+              </div>
+              <div class="column">
+                <img src="food2.png" alt="2" style="width:100%">
+              </div>
+              <div class="column">
+                <img src="food3.png" alt="3" style="width:100%">
+                <div class="column">
+            </div>
+     <script>
+            function goToPage4() {
+          // Specify the URL of the page to navigate to
+          const url = "ABOUT.html"; // Change this to the path of your page
+          // Navigate to the specified URL within the website
+          window.location.href = url;
+      }
+      function goToPage5() {
+          // Specify the URL of the page to navigate to
+          const url = "CONTACT.html"; // Change this to the path of your page
+          // Navigate to the specified URL within the website
+          window.location.href = url;
+      }
+          </script>
+    </body>
+</html>

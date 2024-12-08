@@ -1,0 +1,260 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #AC9988;
+  margin-top: 15px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color: #AC9988;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+.left-image, .right-image {
+    width: 25%;
+    height: auto;
+}    
+.center {
+    font-family: 'Outfit';
+    font-size: 700%;
+    margin-left: 20px; 
+    margin-right: 20px;
+    margin-top: 250px;
+    text-align: center;
+    color: #ffffff;
+    font-weight:700;
+  
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: #bd8f5ba4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.navbar .logo a {
+  display: flex;
+  align-items: center;
+}
+.navbar .logo .logo-img {
+  height: 40px; 
+  width: auto;
+  padding-left: 30%;
+}
+.navbar .menu {
+  display: flex;
+  justify-content: right;
+  flex-grow: 1;
+  font-family: 'Outfit';
+  font-size: 120%;
+  margin-right: 10%;
+  cursor: pointer;
+}
+.navbar .menu a {
+  color: rgb(255, 255, 255);
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar .menu a:hover {
+  color: rgb(133, 57, 41);
+}
+
+.container2 {
+  background-color: #F6DDCD;
+  padding: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.521);
+}
+.text{
+  font-family: 'Outfit';
+  font-size: 30%;
+  color: #333;
+  align-content: end;
+}
+#centered-text{
+  color: #552E03;
+  margin-left: 10%;
+  font-size: 500%;
+  font-family: 'Orelega One';
+  text-align: justify;
+  align-items: center;
+  text-align: left;
+  height: 100%;
+  display: flex;
+}
+#right{
+  width: 50%;
+  height: 50%;
+  margin-left: 5%;
+}
+
+.about {
+  background-color: #fff8e1;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.about h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+.container3{
+  background-color: #AC9988;
+}
+.container1{
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.Aboutus{
+  color: #ffffff;
+  font-size: 200%;
+  font-family: 'Orelega One';
+  font-weight: 50;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+#clickable-text {
+  color: rgb(255, 255, 255);
+  font-family: 'Outfit';
+  font-size: 2000%;
+  font-weight: 800;
+  padding-top: 2%;
+  cursor: pointer;
+  margin-left: 0%;
+  padding-left: 0%;
+  transition: all 0.5s ease; /* Smooth transition for hover effects */
+  font-stretch: expanded;
+}
+#clickable-text2 {
+  color: rgb(255, 255, 255);
+  font-family: 'Outfit';
+  font-size: 2000%;
+  font-weight: 800;
+  text-align: end;
+  cursor: pointer;
+  padding-bottom: 0%;
+  margin-top: 0%;
+  transition: all 0.5s ease; /* Smooth transition for hover effects */
+  font-stretch: expanded;
+}
+#clickable-text3 {
+  color: rgb(255, 255, 255);
+  font-family: 'Outfit';
+  font-size: 2000%;
+  font-weight: 800;
+  text-align: left;
+  cursor: pointer;
+  padding-right: 10%;
+  margin-left: 0;
+  margin-right: 5%;
+}
+.container4 {
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 40px;
+  width: 93%;
+  text-align: center;
+  margin-left: 3%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+h1 {
+  font-size: 100px;
+  font-family: 'Orelega One';
+  color: #333;
+  margin-bottom: 20px;
+}
+p {
+  font-size: 30px;
+  font-family: 'Outfit';
+  color: #555;
+}
+.form-group{
+    margin-top: 2%;
+    font-family: 'Orelega One';
+    font-size: 200%;
+}
+
+.form-group1{
+    margin-top: 1%;
+    font-family: 'Orelega One';
+    font-size: 200%;
+}
+
+.form-group2{
+    margin-top: 1%;
+    font-family: 'Orelega One';
+    font-size: 200%;
+}
+.send{
+    font-family: 'orelega One';
+}
+input {
+  width: 80%;
+  padding: 10px;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+}
+input:focus {
+  border-color: #4CAF50;
+}
+button {
+  width: 20%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color:#552E03;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #bd974bdb;
+}
+
+footer {
+    background-color: #847a71;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .footer-content p {
+    margin: 10px 0;
+    color: #ffffff;
+    font-family: 'Orelega One';
+}
+footer .footer-content a:hover {
+    color: #e74c3c;
+}

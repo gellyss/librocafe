@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>COFFEE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+    </head>
+    <style>
+      body {
+  text-align: center;
+  background-color: #AC9988;
+  margin-top: 15px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #bd8f5ba4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .navbar .logo a {
+    display: flex;
+    align-items: center;
+  }
+  .navbar .logo .logo-img {
+    height: 40px; 
+    width: auto;
+    padding-left: 30%;
+  }
+  .navbar .menu {
+    display: flex;
+    justify-content: right;
+    flex-grow: 1;
+    font-family: 'Outfit';
+    margin-right: 10%;
+    font-size: 120%;
+    cursor: pointer;
+  }
+  .navbar .menu a {
+    color: rgb(255, 255, 255);
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .navbar .menu a:hover {
+    color: rgb(133, 57, 41);
+  }
+.container1{
+  margin-top: 15px;
+
+}
+.coffee{
+  margin-top: 1%;
+  margin-bottom: 0;
+  padding-top: 0;
+  font-family: 'Orelega One';
+  font-size: 500px;
+  color: aliceblue;
+}
+#description{
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 1;
+  font-family: 'Outfit';
+  font-size: 150%;
+}
+.row{
+  background: #552E03;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  padding: 40px;
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+.column {
+  float: left;
+  width: 15%;
+  padding: 5px;
+  margin-left: 5%;
+ 
+}
+
+.column2 {
+  float: left;
+  width: 15%;
+  padding: 5px;
+  margin-left: 5%;
+
+}
+.column3{
+  float: left;
+  width: 15%;
+  padding: 5px;
+  margin-left: 5%;
+ 
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+    </style>
+    <body>
+        <div class="navbar">
+            <div class="logo">
+              <a href="#"><img src="LIBRO_CAFE-removebg-preview.png" alt="My Logo" class="logo-img"></a>
+            </div>
+            <div class="menu">
+              <a href="Libro Cafe.html" class="go-home-button">Home</a>
+              <a div id="about" onclick="goToPage4()">About</a>
+              <a div id="contact" onclick="goToPage5()">Contact</a>
+          </div>   
+          </div> 
+          <div class="coffee">Coffee</div>
+          <div id="description">Start your day with our freshly brewed coffee, from Americano and espresso to creamy cappuccinos and lattes, all made with premium beans. 
+            For a refreshing treat, try our iced mocha frappé or caramel macchiato, <br>topped with whipped cream and sauce—perfect for any time of day.</br></div>
+            <div class="row">
+              <div class="column">
+                <img src="cofe1.png" alt="1" style="width:100%">
+              </div>
+              <div class="column2">
+                <img src="coffee2.png" alt="2" style="width:100%">
+              </div>
+              <div class="column3">
+                <img src="coffee3.png" alt="3" style="width:100%">
+              </div>
+            </div>
+    </body>
+</html>
